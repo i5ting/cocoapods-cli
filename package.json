@@ -1,0 +1,28 @@
+{
+  "name": "cocoapods-cli",
+  "version": "1.0.0",
+  "description": "cocoapods-cli =============",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish .",
+    "test": " node bin/tocmd.js -f sample.md -v -o"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "podi": "bin/podi.js",
+    "podu": "bin/podu.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i5ting/cocoapods-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/cocoapods-cli/issues"
+  },
+  "homepage": "https://github.com/i5ting/cocoapods-cli",
+  "dependencies": {
+    "shelljs": "^0.3.0"
+  }
+}

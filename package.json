@@ -1,6 +1,6 @@
 {
   "name": "cocoapods-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "cocoapods-cli: 约定命令，提高访问速度",
   "keywords": [
     "cocoapods",
@@ -19,6 +19,7 @@
   },
   "preferGlobal": "true",
   "bin": {
+		"podc": "bin/podc.js",
     "podi": "bin/podi.js",
     "podu": "bin/podu.js"
   },

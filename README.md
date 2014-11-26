@@ -22,6 +22,12 @@ cocoapods-cli
 	pod update --verbose --no-repo-update
 	
 
+### podc
+
+	rm -rf ~/Library/Developer/Xcode
+	
+http://stackoverflow.com/questions/19391768/file-has-been-modified-since-the-precompiled-header-was-built
+
 ## Contributing
 
 1. Fork it
